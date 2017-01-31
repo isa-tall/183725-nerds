@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Nerds</title>
+  </head>
+  <body>
+    <header class="main-header">
+   <div class="container">
+    <ul>
+      <li><a href="#">студия</a></li>
+      <li><a href="#">клиенты</a></li>
+      <li><a href="#">магазин</a></li>
+      <li><a href="#">контакты</a></li>
+    </ul>
+      <a href="#" class="basket">корзина</a>
+      <h1>Магазин готовых шаблонов</h1>
+   </div>
+   </header>
+  <main>
+     <div class="container">
+         <div class="column-left">
+            <form action="#" method="get" oninput="daysoutput.value=dayscount.value">
+               <label for="daysoutput"><b>стоимость:</b></label><br>
+               <input type="range" id="daysoutput" name="daysoutput" min="0" max="15000">
+               <output name="daysoutput"></output><br>
+               <br>
+                <b>сетка:</b><br>
+               <input type="radio" checked name="radio" value="adapt">Адаптивная<br>
+               <input type="radio" name="radio">Фиксированная<br>
+               <input type="radio" name="radio">Резиновая<br>
+               <br>
+               <b>особенности:</b><br>
+               <input type="checkbox" name="o" value="1" checked>Слайдер<br>
+               <input type="checkbox" name="o">Блок преимуществ<br>
+               <input type="checkbox" name="o" value="1" checked>Новости<br>
+               <input type="checkbox" name="o">Галерея<br>
+               <input type="checkbox" name="o">Корзина<br>
+               <br>
+               <input type="submit" value="показать">
+            </form>
+         </div>
+         <div class="column-right">
+         <b>сортировать</b>
+         <ul>
+            <li><a href="#">по цене</a></li>
+            <li><a href="#">по типу</a></li>
+            <li><a href="#">по названию</a></li>
+         </ul>
+         <a href="#"><</a>
+         <a href="#">></a>
+         <div class="pict">
+          <img src="http://placehold.it/150x100">
+          <img src="http://placehold.it/150x100">
+          <img src="http://placehold.it/150x100">
+          <img src="http://placehold.it/150x100">
+          <img src="http://placehold.it/150x100">
+          <img src="http://placehold.it/150x100">
+         </div>
+         <div class="next">
+         <a href="#">1</a>
+         <a href="#">2</a>
+         <a href="#">3</a>
+         <a href="#n">следующая</a>
+         </div>
+         </div>
+         <div class="colun-map">
+            <div class="contact">
+           <p>191186,Санкт-Петербург,<br>
+           ул.Б.Конюшенная,д.19/8</p>
+           <p>тел.+7(812)275-75-75</p>
+           <a href="#">напишите нам</a>
+            </div>
+         </div>
+     </div>
+  </main>
+  <footer>
+  <div class="container">
+   <a href="#">vk</a>
+   <a href="#">f</a>
+   <a href="#">inst</a>
+ </div><br>
+  <b>Давайте дружить,это выгодно!</b><br>
+  Скидка 10% для друзей из социальных сетей
+</footer>
+  </body>
+</html>
